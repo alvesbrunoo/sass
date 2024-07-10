@@ -8,24 +8,19 @@
   background-color: #ff4043;
 }
 
-.classe1 {
-	ul{
-		background-color: red;
-	}
-
-	li{
-		background-color: blue;
-  }
-
-	button{
-		background-color: green;
-		color: white;
-
-		&:hover {
-			background-color: red;
-			transition: 1s;
-		}
-	}
+.classe1 ul {
+  background-color: red;
+}
+.classe1 li {
+  background-color: blue;
+}
+.classe1 button {
+  background-color: green;
+  color: white;
+}
+.classe1 button:hover {
+  background-color: red;
+  transition: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */

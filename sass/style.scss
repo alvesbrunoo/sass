@@ -1,3 +1,4 @@
+
 $btn-color: #ff4043;
 $width-btn: 90px;
 
@@ -11,4 +12,23 @@ $width-btn: 90px;
     background-color: $btn-color;
 }
 
+.classe1 {
+	ul{
+		background-color: red;
+	}
+
+	li{
+		background-color: blue;
+  }
+
+	button{
+		background-color: green;
+		color: white;
+
+		&:hover {
+			background-color: red;
+			transition: 1s;
+		}
+	}
+}
 
