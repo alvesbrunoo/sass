@@ -1,3 +1,4 @@
+//Variáveis
 
 $btn-color: #ff4043;
 $width-btn: 90px;
@@ -13,6 +14,8 @@ $width-btn: 90px;
 }
 
 // ------------------
+
+//Nesting
 
 .classe1 {
 	ul{
@@ -36,6 +39,8 @@ $width-btn: 90px;
 
 // -------------------
 
+//Herenças/extends
+
 .btn {
 	width: 145px;
 	padding: 10px 0px;
@@ -55,11 +60,12 @@ $width-btn: 90px;
 
 .btn-azul {
 	@extend .btn;
-	background-color: blue;
-	color: white;
+	background-color: rgba(21, 21, 167, 0.63);
 }
 
 // ----------------
+
+//Mixin
 
 @mixin texts-style($color, $font-size, $font-family) {
 	color: $color;
@@ -79,6 +85,8 @@ $width-btn: 90px;
 }
 
 // --------------
+
+//Import 
 
 // Import Colors
 @import "./colors/colors.scss";

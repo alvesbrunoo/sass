@@ -39,8 +39,7 @@
 }
 
 .btn-azul {
-  background-color: blue;
-  color: white;
+  background-color: rgba(21, 21, 167, 0.63);
 }
 
 .texts h2 {
@@ -63,7 +62,7 @@
 .btn, .btn-azul {
   padding: 10px 15px;
   border: 1px solid red;
-  background-color: #ff4;
+  background-color: rgba(21, 21, 167, 0.63);
 }
 
 /*# sourceMappingURL=style.css.map */
