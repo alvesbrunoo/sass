@@ -58,3 +58,30 @@ $width-btn: 90px;
 	background-color: blue;
 	color: white;
 }
+
+// ----------------
+
+@mixin texts-style($color, $font-size, $font-family) {
+	color: $color;
+	font-size: $font-size;
+	font-family: $font-family;
+}
+
+.texts {
+	h2 {
+		@include texts-style(#ff4043, 34px, Arial);
+	}
+
+	p {
+		@include texts-style(blue, 22px, sans-serif);
+	}
+
+}
+
+// --------------
+
+// Import Colors
+@import "./colors/colors.scss";
+
+// Import Home
+@import "./pages/home.scss";
