@@ -12,6 +12,8 @@ $width-btn: 90px;
     background-color: $btn-color;
 }
 
+// ------------------
+
 .classe1 {
 	ul{
 		background-color: red;
@@ -32,3 +34,27 @@ $width-btn: 90px;
 	}
 }
 
+// -------------------
+
+.btn {
+	width: 145px;
+	padding: 10px 0px;
+	border-radius: 20px;
+	display: block;
+	margin: 10px;
+
+	&.btn-roxo {
+		background-color: purple;
+		color: white;
+	}
+
+	&.btn-amarelo {
+		background-color: yellow;
+	}
+}
+
+.btn-azul {
+	@extend .btn;
+	background-color: blue;
+	color: white;
+}

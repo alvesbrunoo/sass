@@ -23,4 +23,24 @@
   transition: 1s;
 }
 
+.btn, .btn-azul {
+  width: 145px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin: 10px;
+}
+.btn.btn-roxo, .btn-roxo.btn-azul {
+  background-color: purple;
+  color: white;
+}
+.btn.btn-amarelo, .btn-amarelo.btn-azul {
+  background-color: yellow;
+}
+
+.btn-azul {
+  background-color: blue;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
