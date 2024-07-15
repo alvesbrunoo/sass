@@ -65,4 +65,13 @@
   background-color: rgba(21, 21, 167, 0.63);
 }
 
+.title {
+  background-color: black;
+  color: white;
+}
+
+#title {
+  color: purple;
+}
+
 /*# sourceMappingURL=style.css.map */
